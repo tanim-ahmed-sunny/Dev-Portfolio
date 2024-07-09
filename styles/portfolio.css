@@ -3,6 +3,17 @@ body{
     font-family: "Lato", sans-serif;
     font-family: "Open Sans", sans-serif;
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -42,14 +53,46 @@ nav a {
 /* header related styles */
 .header{
     background-color: #fff8f3;
-    
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 100px;
+    padding: 30px 30px 0px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 400px;
+    justify-content: space-between;
 }
 .banner .profile-picture{
     width: 400px;
+    
+    
 
+}
+.banner-greeting{
+    font-size: 15px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+.banner-description{
+    margin: -20px  0 40px 0;
+}
+
+/* main section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
 }
